@@ -101,5 +101,3 @@ interactively orchestrate the release process:
 ```bash
 $ npm run release
 ```
-
-![piratepx](https://app.piratepx.com/ship?p=e91ddd1b-31ad-4c36-b03e-be4a1e9a7678&i=suri)
