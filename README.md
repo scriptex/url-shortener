@@ -1,36 +1,15 @@
-# Suri
+# Personal URL shortener
 
-Suri is your own link shortener that's easily deployed as a static site. No
-server-side hosting, serverless cloud functions, or database necessary. Suri can
-be deployed to Vercel/Netlify for free in 60 seconds.
-
-Suri doesn't give a 💩 about "technically superior" `3xx` server redirects. Suri
-just wants you to finally use that domain you waste \$39/year on because you've
-never actually done anything with it.
-
-Try it out with one of my own shortlinks: https://jstayton.com/tw 👉🏻
-https://twitter.com/kidjustino
-
-## Getting Started
-
-### Install in One Click (for Free)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fjstayton%2Fsuri&project-name=suri&repository-name=suri)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2Fjstayton%2Fsuri)
-
-Once complete, try accessing the root path of your URL – it should redirect back
-to [my GitHub profile](https://github.com/jstayton) if everything's working.
-
-### Manage Links
+## Manage Links
 
 Links are managed through [`src/links.json`](src/links.json), which is seeded
 with a few examples to start:
 
 ```json
 {
-  "/": "https://github.com/jstayton",
-  "1": "https://fee.org/articles/the-use-of-knowledge-in-society/",
-  "tw": "https://twitter.com/kidjustino"
+  "/": "https://atanas.info",
+  "in": "https://linkedin.com/in/scriptex",
+  "tw": "https://twitter.com/scriptexbg"
 }
 ```
 
@@ -43,11 +22,6 @@ Go ahead and make an edit, then commit and push to your repository. The hosting
 provider you chose above should automatically build and deploy your change.
 That's it!
 
-_Pro tip_: Bookmark the page to
-[edit `src/links.json` directly in GitHub](https://github.com/jstayton/suri/edit/master/src/links.json)
-(or wherever), and use the default commit message that's populated. Now show me
-a link shortener that's easier than that!
-
 ### Config
 
 Environment variables are used to set config options. There is only one at this
@@ -59,11 +33,11 @@ point:
 
 ### Install Manually
 
-To install Suri somewhere else, or just on your own machine:
+To install somewhere else, or just on your own machine:
 
 1. Fork this repository to create your own copy and clone to your machine.
 
-1. Make sure you have a compatible version of [Node.js](https://nodejs.org/)
+2. Make sure you have a compatible version of [Node.js](https://nodejs.org/)
    (see `engines.node` in [`package.json`](package.json)).
    [nvm](https://github.com/nvm-sh/nvm) is the recommended installation method
    on your own machine:
@@ -72,24 +46,24 @@ To install Suri somewhere else, or just on your own machine:
    $ nvm install
    ```
 
-1. Install dependencies with npm:
+3. Install dependencies with npm:
 
    ```bash
    $ npm install
    ```
 
-1. Build the static site:
+4. Build the static site:
 
    ```bash
    $ npm run build
    ```
 
-1. Deploy the generated `_site` directory to its final destination.
+5. Deploy the generated `_site` directory to its final destination.
 
 ## Development
 
-The following includes a few instructions for developing on Suri. For
-11ty-specific details – the static site generator that powers Suri – see their
+The following includes a few instructions for developing. For
+11ty-specific details – the static site generator that powers the url shortener – see their
 [docs](https://www.11ty.dev/docs/).
 
 ### Install
