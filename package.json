@@ -1,12 +1,12 @@
 {
-  "name": "suri",
-  "version": "0.2.0",
+  "name": "url-shortener",
+  "version": "1.0.0",
   "private": true,
   "description": "Your own link shortener that's easily deployed as a static site (for free)",
-  "homepage": "https://github.com/jstayton/suri#readme",
-  "bugs": "https://github.com/jstayton/suri/issues",
+  "homepage": "https://github.com/scriptex/url-shortener#readme",
+  "bugs": "https://github.com/scriptex/url-shortener/issues",
   "license": "MIT",
-  "repository": "jstayton/suri",
+  "repository": "scriptex/url-shortener",
   "scripts": {
     "build": "npm run clean && NODE_ENV=production eleventy",
     "clean": "del _site",
