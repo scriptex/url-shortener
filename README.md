@@ -27,9 +27,9 @@ That's it!
 Environment variables are used to set config options. There is only one at this
 point:
 
-| Variable  | Description                                                        | Values   | Default |
-| --------- | ------------------------------------------------------------------ | -------- | ------- |
-| `SURI_JS` | Whether to redirect with JavaScript instead of a `<meta>` refresh. | `1`, `0` | `0`     |
+| Variable | Description                                                        | Values   | Default |
+| -------- | ------------------------------------------------------------------ | -------- | ------- |
+| `USE_JS` | Whether to redirect with JavaScript instead of a `<meta>` refresh. | `1`, `0` | `0`     |
 
 ### Install Manually
 
@@ -62,8 +62,8 @@ To install somewhere else, or just on your own machine:
 
 ## Development
 
-The following includes a few instructions for developing. For
-11ty-specific details – the static site generator that powers the url shortener – see their
+The following includes a few instructions for developing. For 11ty-specific
+details – the static site generator that powers the url shortener – see their
 [docs](https://www.11ty.dev/docs/).
 
 ### Install
