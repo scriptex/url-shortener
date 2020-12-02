@@ -6,8 +6,7 @@
 		"build": "yarn clean && NODE_ENV=production eleventy",
 		"clean": "del _site",
 		"start": "eleventy --serve",
-		"lint": "prettier --check .",
-		"lint:fix": "prettier --write ."
+		"lint": "prettier --write ."
 	},
 	"keywords": [
 		"url",
