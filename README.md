@@ -7,9 +7,9 @@ with a few examples to start:
 
 ```json
 {
-  "/": "https://atanas.info",
-  "in": "https://linkedin.com/in/scriptex",
-  "tw": "https://twitter.com/scriptexbg"
+	"/": "https://atanas.info",
+	"in": "https://linkedin.com/in/scriptex",
+	"tw": "https://twitter.com/scriptexbg"
 }
 ```
 
@@ -42,21 +42,21 @@ To install somewhere else, or just on your own machine:
    [nvm](https://github.com/nvm-sh/nvm) is the recommended installation method
    on your own machine:
 
-   ```bash
-   $ nvm install
-   ```
+    ```bash
+    $ nvm install
+    ```
 
 3. Install dependencies with npm:
 
-   ```bash
-   $ npm install
-   ```
+    ```bash
+    $ npm install
+    ```
 
 4. Build the static site:
 
-   ```bash
-   $ npm run build
-   ```
+    ```bash
+    $ npm run build
+    ```
 
 5. Deploy the generated `_site` directory to its final destination.
 

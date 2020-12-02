@@ -1,12 +1,12 @@
-module.exports = (eleventyConfig) => {
-  eleventyConfig.addWatchTarget('./public')
+module.exports = eleventyConfig => {
+	eleventyConfig.addWatchTarget('./public');
 
-  eleventyConfig.addPassthroughCopy({ './public': '.' })
+	eleventyConfig.addPassthroughCopy({ './public': '.' });
 
-  return {
-    dir: {
-      input: 'src',
-      data: '.',
-    },
-  }
-}
+	return {
+		dir: {
+			input: 'src',
+			data: '.'
+		}
+	};
+};
