@@ -22,7 +22,7 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
-		"@11ty/eleventy": "1.0.0",
+		"@11ty/eleventy": "1.0.1",
 		"del-cli": "4.0.1",
 		"prettier": "2.6.2"
 	},
