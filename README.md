@@ -4,6 +4,7 @@
 [![CodeFactor Badge](https://www.codefactor.io/repository/github/scriptex/url-shortener/badge)](https://www.codefactor.io/repository/github/scriptex/url-shortener)
 [![DeepScan grade](https://deepscan.io/api/teams/3574/projects/5257/branches/40799/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3574&pid=5257&bid=40799)
 [![Analytics](https://ga-beacon-361907.ew.r.appspot.com/UA-83446952-1/github.com/scriptex/url-shortener/README.md?pixel)](https://github.com/scriptex/url-shortener/)
+
 # Personal URL shortener
 
 ## Visitor stats
