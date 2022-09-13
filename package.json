@@ -2,32 +2,34 @@
 	"name": "url-shortener",
 	"version": "1.0.0",
 	"description": "Your own link shortener that's easily deployed as a static site (for free)",
+	"keywords": [
+		"URL",
+		"Shortener",
+		"URL Shortener"
+	],
+	"homepage": "https://atanas.info/projects/url-shortener.html",
+	"bugs": {
+		"url": "https://github.com/scriptex/url-shortener/issues",
+		"email": "hi@atanas.info"
+	},
+	"license": "MIT",
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/url-shortener"
+	},
 	"scripts": {
 		"build": "yarn clean && NODE_ENV=production eleventy",
 		"clean": "del _site",
 		"start": "eleventy --serve",
 		"lint": "prettier --write ."
 	},
-	"keywords": [
-		"url",
-		"shortener",
-		"url shortener"
-	],
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"repository": "https://github.com/scriptex/url-shortener",
-	"bugs": {
-		"url": "https://github.com/scriptex/url-shortener/issues",
-		"email": "scriptex.bg@gmail.com"
-	},
-	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
 		"@11ty/eleventy": "1.0.2",
 		"del-cli": "5.0.0",
 		"prettier": "2.7.1"
-	},
-	"engines": {
-		"node": ">=10"
 	},
 	"private": true
 }
