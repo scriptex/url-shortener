@@ -27,9 +27,9 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@11ty/eleventy": "3.1.6",
+		"@11ty/eleventy": "3.1.7",
 		"del-cli": "8.0.1",
-		"prettier": "3.9.9"
+		"prettier": "3.9.10"
 	},
 	"private": true
 }
